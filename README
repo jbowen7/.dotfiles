@@ -1,0 +1,11 @@
+This repository is a collection of common hidden files aka 'dotfiles' that I often use.
+It includes rcfiles, config files, and other files of that nature, e.g.: .bashrc, pythonrc, etc.
+
+Each file is represented here without its leading period "." so that the files remain
+unhidden inside the repo. 
+
+To use, simply create a symbolic/hard link to the file of interest and prepend a "." in the link name.
+Usage:
+	cd ~/
+	git clone git@github.com:jbowen7/.dotfiles.git
+	ln -s ~/.dotfiles/vimrc ~/.vimrc

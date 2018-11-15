@@ -1,0 +1,5 @@
+[user]
+[push]
+	default = simple
+[pull]
+	rebase = true
