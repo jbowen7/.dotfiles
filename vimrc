@@ -126,6 +126,8 @@ let python_highlight_all=1
 autocmd BufNewFile,BufRead *.lark set syntax=ebnf
 
 " other options
+" the ftplugin will force pep8 indentation
+let g:python_recommended_style=0
 set nu
 set ai
 set ts=4
@@ -152,4 +154,3 @@ autocmd FileType python setlocal completeopt-=preview
 
 " Keep all .swp/.xswp in one place, avoids additions to .gitignore 
 set directory=~/.vim/swapfiles/
-
