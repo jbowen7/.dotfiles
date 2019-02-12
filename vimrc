@@ -17,6 +17,7 @@ Plugin 'ebnf.vim'
 
 " Syntax for python
 Plugin 'vim-python/python-syntax'
+Plugin 'mrk21/yaml-vim'
 
 " Scheme
 Plugin 'morhetz/gruvbox'
@@ -154,3 +155,8 @@ autocmd FileType python setlocal completeopt-=preview
 
 " Keep all .swp/.xswp in one place, avoids additions to .gitignore 
 set directory=~/.vim/swapfiles/
+
+" Yaml settings
+au! BufNewFile,BufReadPost *.{yaml,yml} set filetype=yaml foldmethod=indent
+autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
+
