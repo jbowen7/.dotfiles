@@ -84,7 +84,7 @@ let g:syntastic_enable_highlighting = 0 " annoying underscore
 
 " Ignore tab-indents, block-comments, lines at eof
 let g:syntastic_python_checkers = ['flake8']
-let g:syntastic_python_flake8_args='--ignore=W191,E265,W391,E266 --max-line-length=120'
+" let g:syntastic_python_flake8_args='--ignore=W191,E265,W391,E266 --max-line-length=120'
 
 let g:jbowen7_syntastic_toggle = 0
 function! ToggleSyntastic()

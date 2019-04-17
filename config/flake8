@@ -1,0 +1,5 @@
+[flake8]
+use-flake8-tabs = true
+ignore = 
+	E501,
+	E265
