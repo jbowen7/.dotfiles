@@ -158,7 +158,7 @@ autocmd FileType python setlocal completeopt-=preview
 
 
 " Keep all .swp/.xswp in one place, avoids additions to .gitignore 
-set directory=~/.vim/swapfiles/
+"set directory=~/.vim/swapfiles/
 
 " Yaml settings
 au! BufNewFile,BufReadPost *.{yaml,yml} set filetype=yaml foldmethod=indent
