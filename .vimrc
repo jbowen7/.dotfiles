@@ -19,6 +19,10 @@ Plugin 'ebnf.vim'
 Plugin 'vim-python/python-syntax'
 Plugin 'mrk21/yaml-vim'
 
+" Syntax for Typescript
+Plugin 'leafgarland/typescript-vim'
+
+
 " Scheme
 Plugin 'morhetz/gruvbox'
 Plugin 'Solarized'
